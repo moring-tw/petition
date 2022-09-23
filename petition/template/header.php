@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<base href="./" />
+		<base href="/petition/" />
 		<meta charset="utf-8">
 		<script src="./js/jquery-3.6.1.min.js"></script>
 		<link rel="stylesheet" href="./css/template.css">
