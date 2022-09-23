@@ -12,6 +12,7 @@
 		} else if(strlen($path[2]) === 0){
 			// home page
 			include 'pages/petition_list.php';
+			echo "TEST";
 		} else {
 			include 'not-found.html';
 		}
