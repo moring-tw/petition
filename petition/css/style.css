@@ -1,0 +1,227 @@
+
+
+img#moring{
+	height:50px;
+	width:80px;
+	position:absolute;
+	background-color:white;
+}
+
+div#header{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:50px;
+	line-height:50px;
+	width:100%;
+	box-sizing: content-box;
+	margin:0 auto;
+	padding:0;
+	box-shadow:0 0px 5px rgba(0, 0, 0, 0.7);
+}
+
+div#header-bar{
+	width:1186px;
+	margin:0 auto;
+	box-sizing:border-box;
+	padding:0 0.8%;
+	position:relative;
+}
+
+div#header a{
+	font-family:Stardos Stencil, fantasy;
+	/*font-weight:bold;*/
+	text-decoration:none;
+	color:inherit;
+	font-size:20px;
+	height:100%;
+	display:inline-table;
+	z-index:1000;
+}
+
+div#header a.home{
+	flex-grow:1;
+}
+
+div#header a div.home{
+	height:100%;
+	width:inherit;
+	color:inherit;
+	font-weight: bold;
+	text-align:center;
+	display:inline-table;
+	box-sizing: inherit;
+}
+div#header a.mo-login{
+	height:100%;
+	text-align:center;
+	float:right;
+	position: relative;
+	right: 60px;
+	display: block;
+	width: 0; 
+}
+div#header a.mo-account{
+	height:100%;
+	text-align:center;
+	float:left;
+}
+
+div#header a:visited{
+	color:inherit;
+}
+
+div#header a:hover{
+	//box-shadow:2px 2px 0px 1px rgba(0, 0, 0, 0.9);
+}
+
+div#header a:active{
+	//box-shadow:2px 2px 0px 1px rgba(0, 0, 0, 0.9) inset;
+}
+
+div#content{
+	box-sizing:border-box;
+	width:1186px;
+	margin:0 auto;
+	margin-top:50px;
+	display:block;
+	/*min-height:90%;*/
+	background-color:white;
+	box-shadow:0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+	/*padding:0 1% 0 1%;*/
+}
+
+div#content *{
+	box-shadow:none;
+	padding-left:none;
+}
+
+div#content-info{
+}
+
+
+	
+h1#content-title{
+	font-family:'Noto Sans TC';
+	font-size:32px;
+	font-weight:700;
+	margin:0;
+}
+
+h2#content-subtitle{
+	color:#1abc9c;
+	font-size:26px;
+	margin:0;
+	margin-left:52px;
+}
+
+div#content-author{
+	font-family:Caveat, monospace, fantasy, DFKai-sb;
+	display:inline;
+}
+
+img#Author-profile-pic{
+	height:50px;
+	width:50px;
+}
+
+div#profile-pic-div{
+	display:inline-grid;
+}
+
+div#content-datetime{
+	font-family:Caveat, monospace, fantasy;
+	font-size:18px;
+	font-style:oblique;
+	display:inline;
+}
+
+div#article-info{
+	display:inline-block;
+}
+
+div#article{
+	padding-top:15px;
+	font-weight:400;
+	border-top:1px solid;
+	border-color:rgba(0,0,0,0.3);
+}
+
+div.center-content{
+	text-align:center;
+	display:table;
+	margin:0 auto;
+	height:100%;
+}
+
+div.center-table-cell{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+div.mo-login-form{
+	display:inline-block;
+	margin:0 auto;
+	padding:30px;
+	border:1px solid rgba(33,33,33,0.3);
+	border-radius:3%;
+	display:table-inline;
+}
+
+input.mo-login-com{
+	margin-bottom:5px;
+}
+div.mo-account-menu{
+	display:none;
+	width:100px;
+	position:fixed;
+	top:50px;
+	background-color:#34495e;
+	
+}
+
+div.mo-account-menu button{
+	width:inherit;
+	padding:6px 15px;
+}
+
+span.mo-account-control{
+	float:right;
+	max-height:50px;
+}
+
+img#fbm{
+	width:100%;
+	height:100%;
+}
+
+div.petition-option{
+	min-height:80px;
+	
+}
+div.petition-option:hover{
+	background-color: #FC7B7C;
+}
+@media (max-width:1186px){
+	div#content{
+		width:100%;
+		margin-top:50px;
+	}
+	
+	div#header{
+		width:100%;
+		padding:0;
+	}
+	
+	div#header-bar{
+		width:100%;
+		box-sizing:border-box;
+		padding:0 0.8%;
+		position:relative;
+	}
+	
+	body{
+		width:100%;
+		margin:0 0 0 0;
+	}
+}
