@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+#ErrorDocument 404 /petition/index.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ([a-zA-Z0-9]+)[/]? /petition/index.php [QSA,L]
+#Redirect /petition/pages/login.php /index.php
+
+</IfModule>
+#Disable Directory Indexing
+Options -Indexes
+
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>

@@ -1,0 +1,75 @@
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	min-height: calc(100% - 68px);
+	height: fit-content;
+	/*display: flex;*/
+	flex-direction: column;
+	font-size: 16px;
+	background-color:#FFF;
+	
+}
+
+#background{
+	width:100%;
+	height:100%;
+	z-index:-1;
+	flex-grow:1;
+	position:fixed;
+	background-image: url("https://www.ga.ntnu.edu.tw/dorm/second_dormitory/images/%E5%BA%95%E5%9C%96.jpg");
+	
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+#header{
+	margin: 0 auto;
+	background-color: #4E070B;
+	background-color: rgb(78,7,11,0.95);
+	/*position:fixed;*/
+	font-size: 32px;
+	text-align: center;
+	width:100%;
+	height: 50px;
+	/*text-shadow: 0.1em 0.1em 0.8em #EEE;*/
+	color: #FFF;
+	display: flex;
+}
+
+#content{
+	min-height:calc(100% - 68px);
+	/*flex-grow:1;*/
+}
+
+#footer{
+	margin: 0 auto;
+	background-color: #4E070B;
+	width:100%;
+	text-shadow: 0.1em 0.1em 0.8em #EEE;
+	color: #FFF;
+	/*border-top: solid white;*/
+}
+#copyright{
+	text-align:center;
+}
+#create_issue_btn{
+	width:80px;
+	min-width:80px;
+	height:80px;
+	min-height:80px;
+	background-color: rgba(96,0,0,0.8);
+	position:fixed;
+	float:right;
+	bottom:30px;
+	right:5px;
+	border-radius: 50%;
+	border:white 1px solid;
+	font-size:80px;
+	line-height:80px;
+	text-align:center;
+	color:white;
+}
