@@ -1,1 +1,1 @@
-include/moring_mysql_connect.php
+./include/moring_mysql_connect.php
